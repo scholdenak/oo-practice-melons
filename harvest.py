@@ -63,10 +63,10 @@ def print_pairing_info(melon_types):
 
     for melon in melon_types:
         print(f'{melon.name} pairs with:')
-        for pairing in melon.pairings 
+        for pairing in melon.pairings:
             print(f'-{melon.pairing}')
 
-print(print_pairing_info(melon_types))
+# print(print_pairing_info(cas.self))
 
     # Fill in the rest
     
